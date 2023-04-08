@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <div class=" header d-flex justify-content-center" >
+    <nav class="navbar navbar-expand-lg navbar-light  col-10 justify-content-between">
+        <div class="container-fluid col-12 m-0 p-0 justify-content-between" >
+          <div class="collapse d-flex justify-content-center align-items-center navbar-collapse col-3" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center col-12">
+              <li class="nav-item col-4">
+                <a class="nav-menu  active" aria-current="page" href="#">Photos</a>
+              </li>
+              <li class="nav-item col-4">
+                <a class="nav-menu " href="#">Videos</a>
+              </li>
+              <li class="nav-item col-4">
+                <a class="nav-menu " href="#">Podcasts</a>
+              </li>
+              <li class="nav-item dropdown">
+              </li>
+            </ul>
+          </div>
+          <div class="site_search d-flex col-9 justify-content-between ">
+            <form class=" found d-flex col-8 justify-content-between">
+                <input class="form-control me-2"  type="search" placeholder="Search for anything..." aria-label="Search">
+            </form>
+            <select class="language" aria-label="Default select example">
+                <option selected>English</option>
+                <option value="1">Українська</option>
+                <option value="2">Русский</option>
+              </select>
+              <button type="button" class="sing btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sing In
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+   </div>
+   <div class="main d-flex justify-content-center col-12">
+    <div class="container-fluid col-10 d-flex  justify-content-center" >
+        <div class="row flex-nowrap col-3">
+            <div class=" status col-12 px-0 ">
+                <div class=" st d-flex flex-column align-items-center  col-10 text-white">
+                    <ul class="collapse show nav flex-column col-12" id="submenu1" data-bs-parent="#menu">
+                        <li>
+                            <a href="#" class="nav-link px-0 col-12"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 6.5C13.6193 6.5 12.5 7.61929 12.5 9C12.5 10.3807 13.6193 11.5 15 11.5C16.3807 11.5 17.5 10.3807 17.5 9C17.5 7.61929 16.3807 6.5 15 6.5Z" fill="#666666"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3 3H21V21H18.5266L18.4945 21.0002H5.5L5.46787 21H3V3ZM19 12.8362C17.8552 13.898 16.7044 14.4537 15 14.4537C13.0944 14.4537 11.6208 13.2859 10.1527 11.7048C9.15108 10.6262 7.51491 10.4335 6.29018 11.25L6.26758 11.2651L5 12.2134V5H19V12.8362Z" fill="#666666"/>
+                                </svg>
+                                <span class=" col-12 ">All photos</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 col-12" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.5 12C17.5 15.0376 15.0376 17.5 12 17.5C8.96243 17.5 6.5 15.0376 6.5 12M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#666666" stroke-width="2"/>
+                                <path d="M11 9C11 9.82843 10.3284 10.5 9.5 10.5C8.67157 10.5 8 9.82843 8 9C8 8.17157 8.67157 7.5 9.5 7.5C10.3284 7.5 11 8.17157 11 9Z" fill="#666666"/>
+                                <path d="M16 9C16 9.82843 15.3284 10.5 14.5 10.5C13.6716 10.5 13 9.82843 13 9C13 8.17157 13.6716 7.5 14.5 7.5C15.3284 7.5 16 8.17157 16 9Z" fill="#666666"/>
+                                </svg><span class="col-12 ">Selfies</span></a>
+                        </li>
+                        <li>
+                            <a  href="#" class="  nav-link px-0 col-12"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8V12L14.5 14.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#666666" stroke-width="2" stroke-linecap="square"/>
+                                </svg>
+                                <span class="col-12 ">Recent</span> </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 col-12"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 21L5.00221 21.0665L5.06445 22H6V21ZM18 21V22H18.9356L18.9978 21.0665L18 21ZM3 5H2V7H3V5ZM21 7H22V5H21V7ZM11 11V10H9V11H11ZM9 16V17H11V16H9ZM15 11V10H13V11H15ZM13 16V17H15V16H13ZM4.00221 6.06652L5.00221 21.0665L6.99779 20.9335L5.99779 5.93348L4.00221 6.06652ZM6 22H18V20H6V22ZM18.9978 21.0665L19.9978 6.06652L18.0022 5.93348L17.0022 20.9335L18.9978 21.0665ZM19 5H5V7H19V5ZM3 7H5V5H3V7ZM19 7H21V5H19V7ZM9 11V16H11V11H9ZM13 11V16H15V11H13ZM12 4C13.3965 4 14.5725 4.95512 14.9055 6.24926L16.8424 5.75074C16.2874 3.59442 14.3312 2 12 2V4ZM9.09445 6.24926C9.42754 4.95512 10.6035 4 12 4V2C9.66883 2 7.71258 3.59442 7.15758 5.75074L9.09445 6.24926Z" fill="#666666"/>
+                                </svg>
+                                <span class="col-12 ">Deleted</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+        <div class="cards d-flex flex-column col-9 flex-wrap justify-content-between">
+            <div class="title d-flex col-12 justify-content-between">
+                <div class="all d-flex flex-column col-6">
+                    <h1>ALL Photos</h1>
+                    <div class="photo"> 150 photos</div>
+                </div>
+                <div class="btn-group col-4 " role="group" aria-label="Базовая группа переключателей радио">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class=" black btn " for="btnradio1">Newest</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class=" white btn " for="btnradio2">Latest</label>
+                  </div>
+            </div>
+             <div class="wrapper_cards d-flex flex-wrap ">
+                <div class="card col-5 m-2">
+                    <img src="/photos/1.png" class="card-img-top" alt="...">
+                    <div class="cards-body">
+                      <h5 class="card-title"> Matrix</h5>
+                      <p class="card-text" data-full-text=" Ма́трица — математический объект, записываемый в виде прямоугольной таблицы элементов кольца или поля (например, целых, действительных или комплексных чисел), который представляет собой совокупность строк и столбцов, на пересечении которых находятся его элементы. Количество строк и столбцов задает размер матрицы. Матрицу можно также представить в виде функции двух дискретных аргументов. Хотя исторически рассматривались, например, треугольные матрицы[1], в настоящее время говорят исключительно о матрицах прямоугольной формы, так как они являются наиболее удобными и общими.">Ма́трица — математический объект, записываемый в виде прямоугольной таблицы элементов кольца или поля (например, целых, действительных или комплексных чисел), который представляет собой совокупность строк и столбцов, на пересечении которых находятся его элементы. Количество строк и столбцов задает размер матрицы. Матрицу можно также представить в виде функции двух дискретных аргументов. Хотя исторически рассматривались, например, треугольные матрицы[1], в настоящее время говорят исключительно о матрицах прямоугольной формы, так как они являются наиболее удобными и общими.</p>
+                      <button class=" show_more btn btn-primary d-none" id="show-full-text-btn">show more . . .</button>
+                      <div class="modal fade" id="full-text-modal" tabindex="-1" aria-labelledby="full-text-modal-label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="full-text-modal-label">Полный текст карточки</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p id="full-text-content"></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Save to collection</a>
+                      <a href="#" class="card-new">Share</a>
+                    </div>
+                  </div>
+                  <div class="card col-5 m-2">
+                    <img src="/photos/2.png" class="card-img-top" alt="...">
+                    <div class="cards-body">
+                      <h5 class="card-title">Heading</h5>
+                      <p class="card-text-1" data-full-text="Продолжая нашу беседу относительно международных отношений, просто напомню, что в прошлый раз мы попытались коротко составить представление об их истоках, то есть о том, что изменилось в мире, почему в семнадцатом веке начали формироваться другие отношения и другие страны—нации-государства. Созданные новые государства признали, что существует государственная, абсолютная суверенность и что государство, ограниченное рамками своей территории, имеет право силой решать проблемы с соседями и другими государствами, и никто не имеет право вмешиваться во внутренние дела этого государства—два фундаментальных принципа. Придя к согласию относительно этих вопросов и либерализуя идею религии, то есть приравнивая все религии, государства кажется, нашли способ и пришли к согласию—в этом заключался смысл процесса преобразований. Но какая ситуация должна была создаться после этого? Иначе говоря, можно ли было сохранять мир исходя из этих принципов? Как показала жизнь—нет. В том же веке возникла большая проблема—Испания ослабела и все, в том числе в прошлый раз мною упомянутые страны и к ним присоединившаяся Британия, начали сражаться друг против друга за испанское наследство. В Европе начались новые войны. В 1713 году в городе Утрехт снова пришли к какому-то договору. Надо было сформировать какой-то баланс сил. Этот баланс сил раньше понимался таким образом: одна из стран обязательно становиться сильнее—это закон, и она начинает подавлять всех, начинает войны. Кажется, что всё было довольно просто, но когда пришло понимание реалий, они заявили, что далее будет так—если одна из стран захочет вырваться в лидеры, то остальные страны Европы должны попытаться совместными силами не позволить ей это сделать. Видите откуда возникла идея баланса сил. Но как показала жизнь, сформировать такой баланс тоже довольно непросто. Знаете, это тоже трудно воспринималось. Как можно было его сформировать? Приводили пример Наполеона: скажем, Франция стала сильнее и все остальные должны были найти между собой общий язык для подавления Франции. Вы можете так поступить один раз, но ведь тот, кто становиться сильнее не дурак же? То есть это всё было сложнее. Давайте вместе попробуем понять, что происходит с этим балансом сил и что это вообще такое. Всё очень сложно, но это необходимо для того, чтобы мы смогли понять, как эти теории, международные отношения развивались до сегодняшнего дня. Таким образом, мы можем четко и ясно сказать, что международные отношения до сих пор развиваются и основываются на национальных интересах государств, балансе сил и международном праве. Это очень существенно. Сначала мы должны попробовать понять, что этот порядок из себя представляет.">Продолжая нашу беседу относительно международных отношений, просто напомню, что в прошлый раз мы попытались коротко составить представление об их истоках, то есть о том, что изменилось в мире, почему в семнадцатом веке начали формироваться другие отношения и другие страны—нации-государства. Созданные новые государства признали, что существует государственная, абсолютная суверенность и что государство, ограниченное рамками своей территории, имеет право силой решать проблемы с соседями и другими государствами, и никто не имеет право вмешиваться во внутренние дела этого государства—два фундаментальных принципа. Придя к согласию относительно этих вопросов и либерализуя идею религии, то есть приравнивая все религии, государства кажется, нашли способ и пришли к согласию—в этом заключался смысл процесса преобразований. Но какая ситуация должна была создаться после этого? Иначе говоря, можно ли было сохранять мир исходя из этих принципов? Как показала жизнь—нет. В том же веке возникла большая проблема—Испания ослабела и все, в том числе в прошлый раз мною упомянутые страны и к ним присоединившаяся Британия, начали сражаться друг против друга за испанское наследство. В Европе начались новые войны. В 1713 году в городе Утрехт снова пришли к какому-то договору. Надо было сформировать какой-то баланс сил. Этот баланс сил раньше понимался таким образом: одна из стран обязательно становиться сильнее—это закон, и она начинает подавлять всех, начинает войны. Кажется, что всё было довольно просто, но когда пришло понимание реалий, они заявили, что далее будет так—если одна из стран захочет вырваться в лидеры, то остальные страны Европы должны попытаться совместными силами не позволить ей это сделать. Видите откуда возникла идея баланса сил. Но как показала жизнь, сформировать такой баланс тоже довольно непросто. Знаете, это тоже трудно воспринималось. Как можно было его сформировать? Приводили пример Наполеона: скажем, Франция стала сильнее и все остальные должны были найти между собой общий язык для подавления Франции. Вы можете так поступить один раз, но ведь тот, кто становиться сильнее не дурак же? То есть это всё было сложнее. Давайте вместе попробуем понять, что происходит с этим балансом сил и что это вообще такое. Всё очень сложно, но это необходимо для того, чтобы мы смогли понять, как эти теории, международные отношения развивались до сегодняшнего дня. Таким образом, мы можем четко и ясно сказать, что международные отношения до сих пор развиваются и основываются на национальных интересах государств, балансе сил и международном праве. Это очень существенно. Сначала мы должны попробовать понять, что этот порядок из себя представляет.</p>
+                      <button class=" show_more btn btn-primary d-none" id="show-full-text-btn-1">show more . . .</button>
+                      <div class="modal fade" id="full-text-modal-1" tabindex="-1" aria-labelledby="full-text-modal-label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="full-text-modal-label">Полный текст карточки</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p id="full-text-content-1"></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Save to collection</a>
+                      <a href="#" class="card-new">Share</a>
+                    </div>
+                  </div>
+                  <div class="card col-5 m-2">
+                    <img src="/photos/3.png" class="card-img-top" alt="...">
+                    <div class="cards-body">
+                      <h5 class="card-title">Heading</h5>
+                      <p class="card-text-2" data-full-text="Человечество вступило в космич. век. В наше время всякому образованному человеку необходимо знать, что такое космос, и иметь представление о происходящих в космосе процессах.
+                      Прежде чем перейти к изложению совр. представлений о космосе, выясним значение самого слова космос. Космос по-гречески - это порядок, устройство, стройность (вообще, нечто упорядоченное). Философы Древней Греции понимали под словом космос Мироздание, рассматривая его как упорядоченную гармоничную систему. Космосу противопоставлялся беспорядок, хаос. Для древних греков понятия порядка и красоты в явлениях природы были тесно связаны. Эта точка зрения держалась в философии и науке долго; недаром даже Коперник считал, что орбиты планет должны быть окружностями лишь потому, что окружность красивее эллипса.">Человечество вступило в космич. век. В наше время всякому образованному человеку необходимо знать, что такое космос, и иметь представление о происходящих в космосе процессах.
+                      Прежде чем перейти к изложению совр. представлений о космосе, выясним значение самого слова "космос". "Космос" по-гречески - это порядок, устройство, стройность (вообще, нечто упорядоченное). Философы Древней Греции понимали под словом "космос" Мироздание, рассматривая его как упорядоченную гармоничную систему. Космосу противопоставлялся беспорядок, хаос. Для древних греков понятия порядка и красоты в явлениях природы были тесно связаны. Эта точка зрения держалась в философии и науке долго; недаром даже Коперник считал, что орбиты планет должны быть окружностями лишь потому, что окружность красивее эллипса.</p>
+                      <button class=" show_more btn btn-primary d-none" id="show-full-text-btn-2">show more . . .</button>
+                      <div class="modal fade" id="full-text-modal-2" tabindex="-1" aria-labelledby="full-text-modal-label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="full-text-modal-label">Полный текст карточки</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p id="full-text-content-2"></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Save to collection</a>
+                      <a href="#" class="card-new">Share</a>
+                    </div>
+                  </div>
+                  <div class="card col-5 m-2">
+                    <img src="/photos/4.png" class="card-img-top" alt="...">
+                    <div class="cards-body">
+                      <h5 class="card-title">Heading</h5>
+                      <p class="card-text-3" data-full-text="Человечество вступило в космич. век. В наше время всякому образованному человеку необходимо знать, что такое космос, и иметь представление о происходящих в космосе процессах.
+                      Прежде чем перейти к изложению совр. представлений о космосе, выясним значение самого слова космос. Космос по-гречески - это порядок, устройство, стройность (вообще, нечто упорядоченное). Философы Древней Греции понимали под словом космос Мироздание, рассматривая его как упорядоченную гармоничную систему. Космосу противопоставлялся беспорядок, хаос. Для древних греков понятия порядка и красоты в явлениях природы были тесно связаны. Эта точка зрения держалась в философии и науке долго; недаром даже Коперник считал, что орбиты планет должны быть окружностями лишь потому, что окружность красивее эллипса.">Человечество вступило в космич. век. В наше время всякому образованному человеку необходимо знать, что такое космос, и иметь представление о происходящих в космосе процессах.
+                      Прежде чем перейти к изложению совр. представлений о космосе, выясним значение самого слова "космос". "Космос" по-гречески - это порядок, устройство, стройность (вообще, нечто упорядоченное). Философы Древней Греции понимали под словом "космос" Мироздание, рассматривая его как упорядоченную гармоничную систему. Космосу противопоставлялся беспорядок, хаос. Для древних греков понятия порядка и красоты в явлениях природы были тесно связаны. Эта точка зрения держалась в философии и науке долго; недаром даже Коперник считал, что орбиты планет должны быть окружностями лишь потому, что окружность красивее эллипса.</p>
+                      <button class=" show_more btn btn-primary d-none" id="show-full-text-btn-3">show more . . .</button>
+                      <div class="modal fade" id="full-text-modal-3" tabindex="-1" aria-labelledby="full-text-modal-label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="full-text-modal-label">Полный текст карточки</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p id="full-text-content-3"></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Save to collection</a>
+                      <a href="#" class="card-new">Share</a>
+                    </div>
+                  </div>
+             </div>
+        </div>
+    </div>
+   </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <script src="./js.js"></script>
+</body>
+</html>  
